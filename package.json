@@ -35,7 +35,7 @@
     "uglify-js": "^2.7.3"
   },
   "scripts": {
-    "build": "npm run cleanup && npm run rollup",
+    "build": "npm run cleanup && npm run rollup --",
     "build:min": "npm run build && npm run min",
     "cleanup": "rm -rf dist",
     "gzip": "gzip -9 -k dist/*",

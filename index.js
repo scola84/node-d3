@@ -1,6 +1,8 @@
 import '@scola/d3-gesture';
 import '@scola/d3-media';
 
+export { event } from 'd3-selection';
+
 export { app } from '@scola/d3-app';
 export { i18n } from '@scola/d3-i18n';
 

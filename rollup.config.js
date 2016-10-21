@@ -9,10 +9,16 @@ export default {
   format: 'umd',
   moduleName: 'd3',
   external: [
+    'd3-selection',
+    'd3-selection-multi',
+    'd3-transition',
     'moment',
     'moment-timezone'
   ],
   globals: {
+    'd3-selection': 'd3',
+    'd3-selection-multi': 'd3',
+    'd3-transition': 'd3',
     'moment': 'moment',
     'moment-timezone': 'moment'
   },
