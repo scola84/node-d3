@@ -1,13 +1,26 @@
 import '@scola/d3-gesture';
 import '@scola/d3-media';
 
-export { event } from 'd3-selection';
+export {
+  event,
+  select
+} from 'd3-selection';
 
 export { app } from '@scola/d3-app';
+
+export {
+  controlBar,
+  controlButton,
+  controlGroupButton,
+  tabBar,
+  tabGroupButton
+} from '@scola/d3-generic';
+
 export { i18n } from '@scola/d3-i18n';
 
 export {
   checkItem,
+  dateItem,
   filterItem,
   inputItem,
   listItem,
@@ -32,7 +45,6 @@ export {
 
 export {
   panel,
-  panelButton,
   panelMessage
 } from '@scola/d3-panel';
 
@@ -49,8 +61,11 @@ export { scroller } from '@scola/d3-scroller';
 export { slider } from '@scola/d3-slider';
 
 export {
-  inlineTab,
-  inlineTabButton,
-  panelTab,
-  panelTabButton
+  tab
 } from '@scola/d3-tab';
+
+export {
+  table,
+  tableColumn,
+  tableMessage
+} from '@scola/d3-table';

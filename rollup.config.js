@@ -11,13 +11,11 @@ export default {
   external: [
     'd3-selection',
     'd3-transition',
-    'moment',
     'moment-timezone'
   ],
   globals: {
     'd3-selection': 'd3',
     'd3-transition': 'd3',
-    'moment': 'moment',
     'moment-timezone': 'moment'
   },
   plugins: [
