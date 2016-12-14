@@ -1,11 +1,6 @@
 import '@scola/d3-gesture';
 import '@scola/d3-media';
 
-export {
-  event,
-  select
-} from 'd3-selection';
-
 export { app } from '@scola/d3-app';
 
 export {
@@ -15,6 +10,14 @@ export {
   tabBar,
   tabGroupButton
 } from '@scola/d3-generic';
+
+export {
+  axis,
+  bar,
+  graph,
+  line,
+  scatter
+} from '@scola/d3-graph';
 
 export { i18n } from '@scola/d3-i18n';
 
@@ -36,9 +39,8 @@ export {
 export { menu } from '@scola/d3-menu';
 
 export {
-  MODE_NONE,
-  MODE_SUB,
-  MODE_UNSUB,
+  ListModel,
+  ObjectModel,
   listModel,
   objectModel
 } from '@scola/d3-model';
@@ -65,7 +67,5 @@ export {
 } from '@scola/d3-tab';
 
 export {
-  table,
-  tableColumn,
-  tableMessage
+  table
 } from '@scola/d3-table';
