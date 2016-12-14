@@ -1,6 +1,6 @@
 {
   "name": "@scola/d3",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Global D3",
   "repository": "github:scola84/node-d3",
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
