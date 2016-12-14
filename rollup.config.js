@@ -11,12 +11,14 @@ export default {
   external: [
     '@scola/core',
     'd3-selection',
-    'd3-transition'
+    'd3-transition',
+    'moment-timezone'
   ],
   globals: {
     '@scola/core': 'core',
     'd3-selection': 'd3',
-    'd3-transition': 'd3'
+    'd3-transition': 'd3',
+    'moment-timezone': 'moment'
   },
   plugins: [
     builtins(),
