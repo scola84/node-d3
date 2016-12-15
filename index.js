@@ -61,11 +61,5 @@ export {
 export { router } from '@scola/d3-router';
 export { scroller } from '@scola/d3-scroller';
 export { slider } from '@scola/d3-slider';
-
-export {
-  tab
-} from '@scola/d3-tab';
-
-export {
-  table
-} from '@scola/d3-table';
+export { tab } from '@scola/d3-tab';
+export { table } from '@scola/d3-table';
