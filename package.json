@@ -11,9 +11,9 @@
     "@scola/d3-app": "^1.1.0",
     "@scola/d3-generic": "^1.1.0",
     "@scola/d3-gesture": "^1.1.0",
-    "@scola/d3-graph": "^1.1.0",
+    "@scola/d3-graph": "^1.1.1",
     "@scola/d3-i18n": "^1.1.1",
-    "@scola/d3-list": "^2.2.0",
+    "@scola/d3-list": "^2.2.1",
     "@scola/d3-media": "^1.1.0",
     "@scola/d3-menu": "^1.1.1",
     "@scola/d3-model": "^2.1.1",
@@ -23,7 +23,7 @@
     "@scola/d3-scroller": "^1.1.0",
     "@scola/d3-slider": "^1.2.0",
     "@scola/d3-tab": "^2.1.0",
-    "@scola/d3-table": "^2.1.0"
+    "@scola/d3-table": "^2.1.1"
   },
   "devDependencies": {
     "rollup": "^0.37.0",
