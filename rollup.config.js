@@ -3,8 +3,12 @@ import builtins from 'rollup-plugin-node-builtins';
 import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 
+const name = process.argv.indexOf('-l') === -1 ?
+  'd3.js' :
+  'd3.min.js';
+
 export default {
-  dest: './dist/d3.js',
+  dest: './dist/' + name,
   entry: 'index.js',
   format: 'umd',
   moduleName: 'd3',
