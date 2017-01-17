@@ -1,7 +1,10 @@
 import '@scola/d3-gesture';
 import '@scola/d3-media';
 
-export { app } from '@scola/d3-app';
+export {
+  main,
+  menu
+} from '@scola/d3-app';
 
 export {
   controlBar,
@@ -26,24 +29,16 @@ export {
   dateItem,
   filterItem,
   inputItem,
+  itemList,
+  listButton,
   listItem,
   menuItem,
   navItem,
   radioItem,
-  switchItem,
-  itemList,
-  listButton,
-  listHeader
+  switchItem
 } from '@scola/d3-list';
 
-export { menu } from '@scola/d3-menu';
-
-export {
-  ListModel,
-  ObjectModel,
-  listModel,
-  objectModel
-} from '@scola/d3-model';
+export { model } from '@scola/d3-model';
 
 export {
   panel,
