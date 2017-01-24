@@ -27,7 +27,6 @@ export { i18n } from '@scola/d3-i18n';
 export {
   checkItem,
   dateItem,
-  filterItem,
   inputItem,
   itemList,
   listButton,
