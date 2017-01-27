@@ -7,12 +7,13 @@ export {
 } from '@scola/d3-app';
 
 export {
-  controlBar,
-  controlButton,
-  controlGroupButton,
-  tabBar,
-  tabGroupButton
-} from '@scola/d3-generic';
+  blockBar,
+  blockButton,
+  inlineBar,
+  inlineButton,
+  mainBar,
+  mainButton
+} from '@scola/d3-control';
 
 export {
   axis,
