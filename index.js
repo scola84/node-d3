@@ -33,8 +33,7 @@ export {
   listItem,
   menuItem,
   navItem,
-  radioItem,
-  switchItem
+  radioItem
 } from '@scola/d3-list';
 
 export { model } from '@scola/d3-model';
