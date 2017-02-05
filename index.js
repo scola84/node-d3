@@ -9,10 +9,10 @@ export {
 export {
   blockBar,
   blockButton,
+  controlBar,
+  controlButton,
   inlineBar,
   inlineButton,
-  mainBar,
-  mainButton
 } from '@scola/d3-control';
 
 export {
@@ -28,7 +28,6 @@ export { i18n } from '@scola/d3-i18n';
 export {
   checkItem,
   dateItem,
-  inputItem,
   itemList,
   listButton,
   listItem,
