@@ -13,11 +13,13 @@ export default {
   format: 'umd',
   moduleName: 'd3',
   external: [
+    'd3',
     'd3-selection',
     'd3-transition',
     'moment-timezone'
   ],
   globals: {
+    'd3': 'd3',
     'd3-selection': 'd3',
     'd3-transition': 'd3',
     'moment-timezone': 'moment'
