@@ -1,5 +1,6 @@
 import '@scola/d3-gesture';
 import '@scola/d3-media';
+import 'd3-selection-multi';
 
 export {
   main,
@@ -17,10 +18,10 @@ export {
 
 export {
   axis,
-  bar,
+  barPlot,
   graph,
-  line,
-  scatter
+  linePlot,
+  scatterPlot
 } from '@scola/d3-graph';
 
 export { i18n } from '@scola/d3-i18n';
@@ -37,11 +38,7 @@ export {
 } from '@scola/d3-list';
 
 export { model } from '@scola/d3-model';
-
-export {
-  panel,
-  panelMessage
-} from '@scola/d3-panel';
+export { panel } from '@scola/d3-panel';
 
 export {
   popAction,
@@ -55,4 +52,8 @@ export { router } from '@scola/d3-router';
 export { scroller } from '@scola/d3-scroller';
 export { slider } from '@scola/d3-slider';
 export { tab } from '@scola/d3-tab';
-export { table } from '@scola/d3-table';
+
+export {
+  formatCell,
+  table
+} from '@scola/d3-table';
