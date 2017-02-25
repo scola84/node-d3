@@ -45,7 +45,9 @@ export {
   popButton,
   popOut,
   popOver,
-  popUp
+  popUp,
+  popAlert,
+  popConfirm
 } from '@scola/d3-pop';
 
 export { router } from '@scola/d3-router';
