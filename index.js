@@ -12,6 +12,7 @@ export {
   blockButton,
   controlBar,
   controlButton,
+  controlInput,
   inlineBar,
   inlineButton,
 } from '@scola/d3-control';
