@@ -2,22 +2,22 @@ import '@scola/d3-gesture';
 import '@scola/d3-media';
 import 'd3-selection-multi';
 
-export {
+import {
   main,
   menu
 } from '@scola/d3-app';
 
-export {
+import {
   blockBar,
   blockButton,
   controlBar,
   controlButton,
   controlInput,
   inlineBar,
-  inlineButton,
+  inlineButton
 } from '@scola/d3-control';
 
-export {
+import {
   axis,
   barPlot,
   graph,
@@ -25,9 +25,9 @@ export {
   scatterPlot
 } from '@scola/d3-graph';
 
-export { i18n } from '@scola/d3-i18n';
+import { i18n } from '@scola/d3-i18n';
 
-export {
+import {
   checkItem,
   dateItem,
   itemList,
@@ -38,10 +38,15 @@ export {
   radioItem
 } from '@scola/d3-list';
 
-export { model } from '@scola/d3-model';
-export { panel } from '@scola/d3-panel';
+import {
+  Observable,
+  Observer,
+  model
+} from '@scola/d3-model';
 
-export {
+import { panel } from '@scola/d3-panel';
+
+import {
   popAction,
   popButton,
   popOut,
@@ -51,12 +56,55 @@ export {
   popConfirm
 } from '@scola/d3-pop';
 
-export { router } from '@scola/d3-router';
-export { scroller } from '@scola/d3-scroller';
-export { slider } from '@scola/d3-slider';
-export { tab } from '@scola/d3-tab';
+import { router } from '@scola/d3-router';
+import { scroller } from '@scola/d3-scroller';
+import { slider } from '@scola/d3-slider';
+import { tab } from '@scola/d3-tab';
 
-export {
+import {
   formatCell,
   table
 } from '@scola/d3-table';
+
+export {
+  main,
+  menu,
+  blockBar,
+  blockButton,
+  controlBar,
+  controlButton,
+  controlInput,
+  inlineBar,
+  inlineButton,
+  axis,
+  barPlot,
+  graph,
+  linePlot,
+  scatterPlot,
+  i18n,
+  checkItem,
+  dateItem,
+  itemList,
+  listButton,
+  listItem,
+  menuItem,
+  navItem,
+  radioItem,
+  Observable,
+  Observer,
+  model,
+  panel,
+  popAction,
+  popButton,
+  popOut,
+  popOver,
+  popUp,
+  popAlert,
+  popConfirm,
+  router,
+  scroller,
+  slider,
+  tab,
+  formatCell,
+  table
+};
