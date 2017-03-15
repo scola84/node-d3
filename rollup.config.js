@@ -1,6 +1,7 @@
 import buble from 'rollup-plugin-buble';
 import builtins from 'rollup-plugin-node-builtins';
 import commonjs from 'rollup-plugin-commonjs';
+import globals from 'rollup-plugin-node-globals';
 import resolve from 'rollup-plugin-node-resolve';
 import postcss from 'rollup-plugin-postcss';
 
@@ -34,6 +35,7 @@ export default {
     commonjs({
       exclude: ['**/lodash-es/**']
     }),
+    globals(),
     buble()
   ]
 };
