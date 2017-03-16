@@ -8,6 +8,10 @@ import {
 } from '@scola/d3-app';
 
 import {
+  cache
+} from '@scola/d3-cache';
+
+import {
   blockBar,
   blockButton,
   controlBar,
@@ -69,6 +73,7 @@ import {
 export {
   main,
   menu,
+  cache,
   blockBar,
   blockButton,
   controlBar,
