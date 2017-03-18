@@ -6,7 +6,7 @@
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
   "license": "MIT",
   "main": "./dist/d3.js",
-  "jsnext:main": "index.js",
+  "jsnext:main": "./index.js",
   "dependencies": {
     "@scola/d3-app": "^1.1.0",
     "@scola/d3-generic": "^1.1.0",
