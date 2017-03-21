@@ -45,7 +45,9 @@ import {
 import {
   Observable,
   Observer,
-  model
+  State,
+  model,
+  state
 } from '@scola/d3-model';
 
 import { panel } from '@scola/d3-panel';
@@ -97,7 +99,9 @@ export {
   radioItem,
   Observable,
   Observer,
+  State,
   model,
+  state,
   panel,
   popAction,
   popButton,
