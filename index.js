@@ -32,10 +32,10 @@ import {
 import { i18n } from '@scola/d3-i18n';
 
 import {
+  buttonItem,
   checkItem,
   dateItem,
   itemList,
-  listButton,
   listItem,
   menuItem,
   navItem,
@@ -89,10 +89,10 @@ export {
   linePlot,
   scatterPlot,
   i18n,
+  buttonItem,
   checkItem,
   dateItem,
   itemList,
-  listButton,
   listItem,
   menuItem,
   navItem,
