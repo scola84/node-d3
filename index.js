@@ -8,10 +8,6 @@ import {
 } from '@scola/d3-app';
 
 import {
-  cache
-} from '@scola/d3-cache';
-
-import {
   blockBar,
   blockButton,
   controlBar,
@@ -43,9 +39,11 @@ import {
 } from '@scola/d3-list';
 
 import {
+  Cache,
   Observable,
   Observer,
   State,
+  cache,
   model,
   state
 } from '@scola/d3-model';
@@ -75,7 +73,6 @@ import {
 export {
   main,
   menu,
-  cache,
   blockBar,
   blockButton,
   controlBar,
@@ -97,9 +94,11 @@ export {
   menuItem,
   navItem,
   radioItem,
+  Cache,
   Observable,
   Observer,
   State,
+  cache,
   model,
   state,
   panel,
