@@ -64,11 +64,7 @@ import { router } from '@scola/d3-router';
 import { scroller } from '@scola/d3-scroller';
 import { slider } from '@scola/d3-slider';
 import { tab } from '@scola/d3-tab';
-
-import {
-  formatCell,
-  table
-} from '@scola/d3-table';
+import { table } from '@scola/d3-table';
 
 export {
   main,
@@ -113,6 +109,5 @@ export {
   scroller,
   slider,
   tab,
-  formatCell,
   table
 };
