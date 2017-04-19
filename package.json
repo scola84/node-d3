@@ -22,7 +22,8 @@
     "@scola/d3-scroller": "^2.0.0",
     "@scola/d3-slider": "^2.0.0",
     "@scola/d3-tab": "^3.0.0",
-    "@scola/d3-table": "^3.0.0"
+    "@scola/d3-table": "^3.0.0",
+    "d3-selection-multi": "^1.0.1"
   },
   "devDependencies": {
     "rollup": "^0.41.6",
