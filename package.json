@@ -42,7 +42,7 @@
     "build:min": "npm run build && npm run min",
     "cleanup": "rm -rf dist",
     "gzip": "gzip -9 -k dist/*",
-    "link": "npm link @scola/d3-app @scola/d3-control @scola/d3-gesture @scola/d3-graph @scola/d3-i18n @scola/d3-list @scola/d3-media @scola/d3-model @scola/d3-panel @scola/d3-pop @scola/d3-router @scola/d3-scroller @scola/d3-slider @scola/d3-tab @scola/d3-table",
+    "link": "npm link @scola/d3-app @scola/d3-control @scola/d3-gesture @scola/d3-graph @scola/d3-i18n @scola/d3-list @scola/d3-media @scola/d3-model @scola/d3-panel @scola/d3-pop @scola/d3-router @scola/d3-scroller @scola/d3-slider @scola/d3-tab @scola/d3-table @scola/error @scola/i18n",
     "min": "uglifyjs dist/d3.js -m -o dist/d3.min.js",
     "prepublish": "npm run build:min",
     "rollup": "rollup -c"
