@@ -26,13 +26,14 @@
     "d3-selection-multi": "^1.0.1"
   },
   "devDependencies": {
+    "clean-css": "^4.1.0",
     "rollup": "^0.41.6",
     "rollup-plugin-buble": "^0.15.0",
     "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-css-only": "^0.2.0",
     "rollup-plugin-node-builtins": "^2.1.1",
     "rollup-plugin-node-globals": "^1.1.0",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-postcss": "^0.4.1",
     "rollup-watch": "^3.2.2",
     "uglify-js": "^2.8.23"
   },
@@ -40,10 +41,12 @@
     "build": "npm run cleanup && npm run rollup --",
     "build:dev": "npm run build -- -w -m",
     "build:min": "npm run build && npm run min",
-    "cleanup": "rm -rf dist",
+    "cleanup": "rm -rf dist && mkdir dist",
     "gzip": "gzip -9 -k dist/*",
     "link": "npm link @scola/d3-app @scola/d3-control @scola/d3-gesture @scola/d3-graph @scola/d3-i18n @scola/d3-list @scola/d3-media @scola/d3-model @scola/d3-panel @scola/d3-pop @scola/d3-router @scola/d3-scroller @scola/d3-slider @scola/d3-tab @scola/d3-table @scola/error @scola/i18n",
-    "min": "uglifyjs dist/d3.js -m -o dist/d3.min.js",
+    "min": "npm run min:js && npm run min:css",
+    "min:js": "uglifyjs dist/d3.js -m -o dist/d3.min.js",
+    "min:css": "cleancss --skip-rebase dist/d3.css -o dist/d3.min.css",
     "prepublish": "npm run build:min",
     "rollup": "rollup -c"
   }
