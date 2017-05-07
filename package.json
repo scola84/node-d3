@@ -8,7 +8,7 @@
   "main": "./dist/d3.js",
   "jsnext:main": "./index.js",
   "dependencies": {
-    "@scola/d3-app": "^2.0.2",
+    "@scola/d3-app": "^2.0.3",
     "@scola/d3-control": "^1.0.1",
     "@scola/d3-gesture": "^1.2.0",
     "@scola/d3-graph": "^2.0.0",
