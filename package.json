@@ -8,21 +8,21 @@
   "main": "./dist/d3.js",
   "jsnext:main": "./index.js",
   "dependencies": {
-    "@scola/d3-app": "^2.0.3",
-    "@scola/d3-control": "^1.0.1",
+    "@scola/d3-app": "^2.0.4",
+    "@scola/d3-control": "^1.0.2",
     "@scola/d3-gesture": "^1.2.0",
-    "@scola/d3-graph": "^2.0.0",
+    "@scola/d3-graph": "^2.0.1",
     "@scola/d3-i18n": "^2.0.0",
-    "@scola/d3-list": "^3.0.2",
+    "@scola/d3-list": "^3.0.3",
     "@scola/d3-media": "^2.0.0",
     "@scola/d3-model": "^3.1.1",
-    "@scola/d3-panel": "^3.0.1",
-    "@scola/d3-pop": "^2.0.1",
+    "@scola/d3-panel": "^3.0.3",
+    "@scola/d3-pop": "^2.0.2",
     "@scola/d3-router": "^4.0.2",
     "@scola/d3-scroller": "^2.0.1",
     "@scola/d3-slider": "^2.0.1",
-    "@scola/d3-tab": "^3.0.2",
-    "@scola/d3-table": "^3.0.1",
+    "@scola/d3-tab": "^3.0.3",
+    "@scola/d3-table": "^3.0.2",
     "d3-selection-multi": "^1.0.1"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "rollup-plugin-node-globals": "^1.1.0",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-watch": "^3.2.2",
-    "uglify-js": "^2.8.23"
+    "uglify-js": "^3.0.1"
   },
   "scripts": {
     "build": "npm run cleanup && npm run rollup --",
