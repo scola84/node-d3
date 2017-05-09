@@ -1,4 +1,5 @@
 import '@scola/d3-gesture';
+import '@scola/d3-helper';
 import '@scola/d3-media';
 import 'd3-selection-multi';
 
