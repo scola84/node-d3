@@ -10,7 +10,7 @@
   "dependencies": {
     "@scola/d3-app": "^2.0.8",
     "@scola/d3-control": "^1.1.0",
-    "@scola/d3-gesture": "^1.2.0",
+    "@scola/d3-gesture": "^1.2.1",
     "@scola/d3-graph": "^2.0.8",
     "@scola/d3-helper": "^1.1.0",
     "@scola/d3-i18n": "^2.0.0",
