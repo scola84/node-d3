@@ -9,7 +9,7 @@
   "jsnext:main": "./index.js",
   "dependencies": {
     "@scola/d3-app": "^2.0.8",
-    "@scola/d3-control": "^1.0.3",
+    "@scola/d3-control": "^1.1.0",
     "@scola/d3-gesture": "^1.2.0",
     "@scola/d3-graph": "^2.0.8",
     "@scola/d3-helper": "^1.1.0",
@@ -36,7 +36,7 @@
     "rollup-plugin-node-globals": "^1.1.0",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-watch": "^3.2.2",
-    "uglify-js": "^3.0.3"
+    "uglify-js": "^3.0.4"
   },
   "scripts": {
     "build": "npm run prepare && npm run rollup --",
