@@ -40,10 +40,12 @@ import {
 } from '@scola/d3-list';
 
 import {
+  Action,
   Cache,
   Observable,
   Observer,
   State,
+  action,
   cache,
   model,
   state
@@ -92,9 +94,11 @@ export {
   navItem,
   radioItem,
   Cache,
+  Action,
   Observable,
   Observer,
   State,
+  action,
   cache,
   model,
   state,
