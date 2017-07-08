@@ -45,12 +45,14 @@
     "build:pub": "npm run build && npm run min && npm run gzip:pre",
     "gzip": "gzip -9 -fkr dist/*",
     "gzip:pre": "find dist/ -name '*.gz' -delete",
-    "link": "npm link @scola/d3-app @scola/d3-control @scola/d3-gesture @scola/d3-graph @scola/d3-helper @scola/d3-i18n @scola/d3-list @scola/d3-media @scola/d3-model @scola/d3-panel @scola/d3-pop @scola/d3-router @scola/d3-scroller @scola/d3-slider @scola/d3-tab @scola/d3-table @scola/error @scola/i18n",
+    "link": "npm run unlink && npm run link:scola",
+    "link:scola": "ln -s $LINK/@scola node_modules/@scola",
     "min": "npm run min:js && npm run min:css",
     "min:js": "uglifyjs dist/d3.js -m -o dist/d3.min.js",
     "min:css": "cleancss --skip-rebase dist/d3.css -o dist/d3.min.css",
     "prepare": "mkdir -p dist/ && find dist/ -name '*.map' -delete",
     "prepublish": "npm run build:pub",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "unlink": "rm -rf node_modules/@scola"
   }
 }
