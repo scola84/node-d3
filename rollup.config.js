@@ -18,12 +18,14 @@ export default {
     'd3',
     'd3-selection',
     'd3-transition',
+    'leaflet',
     'moment-timezone'
   ],
   globals: {
     'd3': 'd3',
     'd3-selection': 'd3',
     'd3-transition': 'd3',
+    'leaflet': 'L',
     'moment-timezone': 'moment'
   },
   plugins: [

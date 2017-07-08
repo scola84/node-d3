@@ -51,6 +51,8 @@ import {
   state
 } from '@scola/d3-model';
 
+import { osm } from '@scola/d3-osm';
+
 import { panel } from '@scola/d3-panel';
 
 import {
@@ -102,6 +104,7 @@ export {
   cache,
   model,
   state,
+  osm,
   panel,
   popAction,
   popButton,
