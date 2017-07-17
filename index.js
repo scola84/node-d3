@@ -1,5 +1,4 @@
 import '@scola/d3-gesture';
-import '@scola/d3-helper';
 import '@scola/d3-media';
 import 'd3-selection-multi';
 
@@ -25,6 +24,12 @@ import {
   linePlot,
   scatterPlot
 } from '@scola/d3-graph';
+
+import {
+  listHandler,
+  objectHandler,
+  tableHandler
+} from '@scola/d3-helper';
 
 import { i18n } from '@scola/d3-i18n';
 
@@ -86,6 +91,9 @@ export {
   graph,
   linePlot,
   scatterPlot,
+  listHandler,
+  objectHandler,
+  tableHandler,
   i18n,
   buttonItem,
   checkItem,
