@@ -14,6 +14,7 @@ export default {
   entry: 'index.js',
   format: 'umd',
   moduleName: 'd3',
+  extend: true,
   external: [
     'd3',
     'd3-selection',
