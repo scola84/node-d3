@@ -6,14 +6,16 @@ import resolve from 'rollup-plugin-node-resolve';
 import css from 'rollup-plugin-css-only';
 
 const name = process.argv.indexOf('-w') === -1 ?
-  'd3.js' :
-  'd3.min.js';
+  'd3' :
+  'd3.min';
 
 export default {
-  dest: './dist/' + name,
-  entry: 'index.js',
-  format: 'umd',
-  moduleName: 'd3',
+  input: 'index.js',
+  output: {
+    file: './dist/' + name + '.js',
+    format: 'umd'
+  },
+  name: 'd3',
   extend: true,
   external: [
     'd3',
@@ -31,7 +33,9 @@ export default {
   },
   plugins: [
     builtins(),
-    css(),
+    css({
+      output: 'dist/' + name + '.css'
+    }),
     resolve({
       jsnext: true
     }),
